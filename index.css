@@ -1,0 +1,62 @@
+body{
+	min-width: 576px;
+}
+.menus {
+	padding-left: 50px;
+}
+#buton {
+	margin-left: 22px;
+	border-radius: 30px;
+	color: #EB5A25;
+	border-color: #EB5A25;
+}
+#buton:hover {
+	background-color: white;
+	border-color: #EB5A25;
+}
+.navbar-background{
+	background-color: #26293B;
+}
+.navbar-margin {
+	padding: 20px 0px 20px 5px;
+}
+.dropdown-color{
+	color: #fff;
+	text-decoration: none;
+}
+.dropdown-color:hover{
+	color: #EB5A25;
+	text-decoration: none;
+}
+.right-search {
+	border-radius: 30px;
+	float: right;
+	width: 60%;
+}
+.search-buton {
+	border-radius: 50px;
+	background-color: #fff;
+}
+.korzinka {
+	color: #fff;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+}
+.korzinka:hover {
+	color: #EB5A25;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+}
+@media screen and (max-width: 992px ){
+
+	.sozlar {
+		display: none;
+	}
+}
+/* --------------не трогать---------------*/
+@media screen and (max-width: 1300px) {
+	#buton {
+		margin: 0;
+	}
+}
+/* ---------------не трогать-------------*/
